@@ -14,7 +14,6 @@ namespace NBAExcel
 		readonly static string sheetInput = "Input";
 		readonly static string sheetMins = "Mins";
 
-
 		public static void Main()
 		{
 			Excel.Application application = Globals.ThisAddIn.Application;
