@@ -34,7 +34,7 @@ namespace NBAExcel
 				.Where(s => s.Name == sheetInput)
 				.FirstOrDefault();
 
-			return (input.Cells[1082, 2] as Excel.Range).Text;
+			return (input.Cells[1082, 2] as Excel.Range).Text; // "Input" sheet, 1082 row, 2 column - where date is located
 		}
 
 		private static void ChangeFormula(Excel.Workbook workbook, string date)
